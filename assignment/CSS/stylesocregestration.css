@@ -1,0 +1,164 @@
+body {
+	 /*add new background image*/
+    background-color: powderblue;
+}
+
+form{
+	position: relative;
+    left: 100px;
+    top: 0px;
+	font-size: 18px;
+	font-family: verdana;
+}
+
+h2{
+	position: relative;
+    left: 275px;
+    top: 0px;
+	font-size: 45px;
+	font-family: verdana;
+}
+
+#fullname{
+	position: relative;
+    left: 250px;
+    top: 0px;
+	width: 50%; /* full width */
+	padding: 12px;
+	border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    font-family: verdana;
+    font-size: 14px;
+}
+
+#age{
+	position: relative;
+    left: 300px;
+    top: 0px;
+	width: 50%; /* full width */
+	padding: 12px;
+	border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    font-family: verdana;
+    font-size: 14px;
+}
+
+#contactnumber{
+	position: relative;
+    left: 185px;
+    top: 0px;
+	width: 50%; /* full width */
+	padding: 12px;
+	border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    font-family: verdana;
+    font-size: 14px;
+}
+
+#email{
+	position: relative;
+    left: 285px;
+    top: 0px;
+	width: 50%; /* full width */
+	padding: 12px;
+	border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    font-family: verdana;
+    font-size: 14px;
+}
+
+#select1
+{
+	position: relative;
+    left: 185px;
+    top: 0px;
+	width: 10%; /* full width */
+	padding: 12px;
+	border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+}
+
+#select2
+{
+	position: relative;
+    left: 190px;
+    top: 0px;
+	width: 10%; /* full width */
+	padding: 12px;
+	border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+}
+
+#select3
+{
+	position: relative;
+    left: 10px;
+    top: 0px;
+	width: 10%; /* full width */
+	padding: 12px;
+	border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+}
+
+#txtarea1{
+	position: relative;
+    left: 340px;
+    top: 0px;
+	width: 50%; /* full width */
+	padding: 12px;
+	border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    font-family: verdana;
+    font-size: 14px;
+}
+
+#txtarea2{
+	position: relative;
+    left: 340px;
+    top: 0px;
+	width: 50%; /* full width */
+	padding: 12px;
+	border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    font-family: verdana;
+    font-size: 14px;
+}
+
+button[type=button] {
+	background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20%;
+    font-size: 18px;
+	font-family: verdana;
+}

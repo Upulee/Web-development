@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>AIESEC | Happens | Payments </title>
+	<link rel="stylesheet" type="text/css" href= "CSS/stylesPayments.css">
+	
+</head>
+<body background="BG image.jpg" >
+
+<header id="header" class="clear">
+
+    <div id="hgroup">
+      <h1 class= "SubHeading"> Payments </h1>
+    </div>
+<h2>Payments</h2>
+<form>
+	<label>Your delegate fee for</label> <label class=""<?php echo $Conference; ?></label> is <label class=""<?php echo $Amount ?></label><br><br>
+	<label>Payment options:</label> <br>
+		<img src="visa.png">><br><br>
+	<label>Credit Card:</label> <br>
+		<label>First Name </label> <input type="text" name="Firstname" id="fname"> &nbsp;&nbsp;&nbsp;&nbsp; 
+		<label>Last Name </label> <input type="text" name="Lastname" id="lname"><br>
+		<label>Credit Card Number</label> <input type="Number" name="Creditcardnumber" id="ccnumber"> &nbsp;&nbsp;&nbsp;&nbsp;<label>Code </label> <input type="Number" name="Code" id="code"><br><br>
+	
+		<input type="button" value="Back" onclick="window.location.href='Delegate application.html'">
+	    <input type="button" value="Makepayment" onclick="window.location.href='Receipt.html'" >
+</form>
+</body>
+</html>

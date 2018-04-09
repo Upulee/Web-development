@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Delegate Application</title>
+	<link rel="stylesheet" href="CSS/styles.css">
+
+	
+</head>
+<body>
+<h2>Delegate Application</h2>
+<form method="POST" action="reg.php">
+	<label>Full Name:</label> <input type="text" name="fullname" id="Fullname"><br><br>
+	<label>Age: </label> <input type="number" name="age" id="Age"><br><br>
+	
+	<label>Gender: </label> 
+	<input type="radio" name="gender" value="Male" id="lbl1">Male
+	<input type="radio" name="gender" value="Female" id="lbl2">Female<br><br>
+	
+	<label>Contact No: </label> <input type="tel" id="contact" name="contact"><br><br>
+	<label>E-mail: </label> <input type="E-mail" id="email" name="email"><br><br>
+	<label>Entity/University: </label>
+		<select name="entity">
+			<option value="UoK">UoK</option>
+			<option value="UoC">UoC</option>
+		</select><br><br>
+	<label>Current Position:</label>
+		<select name="position">
+			<option value="TL">TL</option>
+			<option value="Manager">Manager</option>
+			<option value="Member">Member</option>
+		</select><br><br>
+	
+
+	
+	
+	<label>Why do you want to participate? </label><br>
+	<textarea name="reason" id="txtarea1"></textarea><br><br>
+	<label>How did you get to know about this event? </label><br>
+	<textarea name="advertised" id="txtarea2"></textarea><br><br>
+	
+	
+	<input type="submit">
+</form>
+
+</body>
+</html>

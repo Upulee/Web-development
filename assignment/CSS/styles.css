@@ -1,0 +1,145 @@
+body {
+	 /*add new background image*/
+    background-color: powderblue;
+}
+
+#Fullname{
+	position: relative;
+    left: 70px;
+    top: 0px;
+	width: 50%; /* full width */
+	padding: 12px;
+	border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    font-family: verdana;
+    font-size: 14px;
+}
+
+#txtarea1{
+	position: relative;
+    left: 174px;
+    top: 0px;
+	width: 50%; /* full width */
+	padding: 12px;
+	border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    font-family: verdana;
+    font-size: 14px;
+}
+
+#txtarea2{
+	position: relative;
+    left: 174px;
+    top: 0px;
+	width: 50%; /* full width */
+	padding: 12px;
+	border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    font-family: verdana;
+    font-size: 14px;
+}
+
+input[type=number]{
+	position: relative;
+    left: 128px;
+    top: 0px;
+	width: 10%; /* full width */
+	padding: 12px;
+	border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    font-family: verdana;
+    font-size: 14px;
+}
+
+input[type=tel]{
+	position: relative;
+    left: 60px;
+    top: 0px;
+	width: 50%; /* full width */
+	padding: 12px;
+	border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    font-family: verdana;
+    font-size: 14px;
+   }
+
+   input[type=E-mail]{
+   	position: relative;
+    left: 100px;
+    top: 0px;
+	width: 50%; /* full width */
+	padding: 12px;
+	border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    font-family: verdana;
+    font-size: 14px;
+   }
+
+   
+
+
+h2{
+	position: relative;
+    left: 325px;
+    top: 0px;
+	font-size: 45px;
+	font-family: verdana;
+}
+
+form{
+	position: relative;
+    left: 100px;
+    top: 0px;
+	font-size: 18px;
+	font-family: verdana;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20%;
+    font-size: 18px;
+	font-family: verdana;
+}
+
+select{
+	font-family: verdana;
+    font-size: 18px;
+}
+
+#select1,#select2
+{
+	position: relative;
+    left: 10px;
+    top: 0px;
+	width: 10%; /* full width */
+	padding: 12px;
+	border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+}
+
